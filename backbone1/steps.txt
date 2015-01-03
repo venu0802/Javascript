@@ -1,0 +1,4 @@
+1. Comment out <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> from index.html
+2.Add <script data-main="js/main" src="js/libs/require-2.1.15.min.js"></script> at the bottom before </body> 
+3.Add id sidebar to div having sidebar links and comment out ul element.
+4. Modify tpl/SidebarLink.html to list item properties.
